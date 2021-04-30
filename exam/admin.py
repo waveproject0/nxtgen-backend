@@ -1,0 +1,21 @@
+from django.contrib import admin
+from . import models
+
+admin.site.register(models.Exam)
+admin.site.register(models.ExamApprovedEdit)
+admin.site.register(models.ExamPost)
+admin.site.register(models.ExamQuery)
+admin.site.register(models.ExamQueryExplanation)
+admin.site.register(models.ExamPostComment)
+admin.site.register(models.ExamQueryComment)
+admin.site.register(models.ExamQueryExplanationComment)
+admin.site.register(models.TestComment)
+admin.site.register(models.Test)
+admin.site.register(models.TestSection)
+admin.site.register(models.TestQuestion)
+admin.site.register(models.TestQuestionChoice)
+admin.site.register(models.TestStudent)
+admin.site.register(models.TestStudentAttempt)
+admin.site.register(models.TestQuestionStudentChoice)
+admin.site.register(models.TestQuestionStudentExplanation)
+admin.site.register(models.ExamFollowerRelation)
